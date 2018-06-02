@@ -18,6 +18,8 @@
 		63057A7720C275B40013104E /* ToneAnalyzerV3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63057A7320C275B40013104E /* ToneAnalyzerV3.framework */; };
 		63057A7820C275B40013104E /* ConversationV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63057A7420C275B40013104E /* ConversationV1.framework */; };
 		63057A7B20C2786A0013104E /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63057A7A20C2786A0013104E /* Starscream.framework */; };
+		637BC19120C2A22800DC6A95 /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637BC19020C2A22700DC6A95 /* Credentials.swift */; };
+		637BC19320C2A2CD00DC6A95 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637BC19220C2A2CD00DC6A95 /* User.swift */; };
 		D98FE470C047AFC5886ECCE2 /* Pods_MakeChatbotGreatAgain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C595A9E82304FDC8D5DC962 /* Pods_MakeChatbotGreatAgain.framework */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +49,8 @@
 		63057A7320C275B40013104E /* ToneAnalyzerV3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ToneAnalyzerV3.framework; path = Carthage/Build/iOS/ToneAnalyzerV3.framework; sourceTree = "<group>"; };
 		63057A7420C275B40013104E /* ConversationV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ConversationV1.framework; path = Carthage/Build/iOS/ConversationV1.framework; sourceTree = "<group>"; };
 		63057A7A20C2786A0013104E /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Starscream.framework; path = Carthage/Build/iOS/Starscream.framework; sourceTree = "<group>"; };
+		637BC19020C2A22700DC6A95 /* Credentials.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
+		637BC19220C2A2CD00DC6A95 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		844A13AF06CB8013B5E2C97B /* Pods-MakeChatbotGreatAgain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MakeChatbotGreatAgain.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MakeChatbotGreatAgain/Pods-MakeChatbotGreatAgain.debug.xcconfig"; sourceTree = "<group>"; };
 		8C595A9E82304FDC8D5DC962 /* Pods_MakeChatbotGreatAgain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MakeChatbotGreatAgain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8A196629D3CD56D09CD8BD6 /* Pods-MakeChatbotGreatAgain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MakeChatbotGreatAgain.release.xcconfig"; path = "Pods/Target Support Files/Pods-MakeChatbotGreatAgain/Pods-MakeChatbotGreatAgain.release.xcconfig"; sourceTree = "<group>"; };
@@ -99,8 +103,10 @@
 		63057A4F20C250D10013104E /* MakeChatbotGreatAgain */ = {
 			isa = PBXGroup;
 			children = (
+				637BC19020C2A22700DC6A95 /* Credentials.swift */,
 				63057A5020C250D10013104E /* AppDelegate.swift */,
 				63057A5220C250D10013104E /* ViewController.swift */,
+				637BC19220C2A2CD00DC6A95 /* User.swift */,
 				63057A5420C250D10013104E /* Main.storyboard */,
 				63057A5720C250D30013104E /* Assets.xcassets */,
 				63057A5920C250D30013104E /* LaunchScreen.storyboard */,
@@ -305,6 +311,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				637BC19320C2A2CD00DC6A95 /* User.swift in Sources */,
+				637BC19120C2A22800DC6A95 /* Credentials.swift in Sources */,
 				63057A5320C250D10013104E /* ViewController.swift in Sources */,
 				63057A5120C250D10013104E /* AppDelegate.swift in Sources */,
 			);

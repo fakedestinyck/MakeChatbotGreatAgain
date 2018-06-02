@@ -13,6 +13,12 @@
 		63057A5820C250D30013104E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63057A5720C250D30013104E /* Assets.xcassets */; };
 		63057A5B20C250D30013104E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63057A5920C250D30013104E /* LaunchScreen.storyboard */; };
 		63057A6620C250D30013104E /* MakeChatbotGreatAgainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63057A6520C250D30013104E /* MakeChatbotGreatAgainTests.swift */; };
+		63057A7520C275B40013104E /* AssistantV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63057A7120C275B40013104E /* AssistantV1.framework */; };
+		63057A7620C275B40013104E /* SpeechToTextV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63057A7220C275B40013104E /* SpeechToTextV1.framework */; };
+		63057A7720C275B40013104E /* ToneAnalyzerV3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63057A7320C275B40013104E /* ToneAnalyzerV3.framework */; };
+		63057A7820C275B40013104E /* ConversationV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63057A7420C275B40013104E /* ConversationV1.framework */; };
+		63057A7B20C2786A0013104E /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63057A7A20C2786A0013104E /* Starscream.framework */; };
+		D98FE470C047AFC5886ECCE2 /* Pods_MakeChatbotGreatAgain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C595A9E82304FDC8D5DC962 /* Pods_MakeChatbotGreatAgain.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,14 @@
 		63057A6120C250D30013104E /* MakeChatbotGreatAgainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MakeChatbotGreatAgainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63057A6520C250D30013104E /* MakeChatbotGreatAgainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeChatbotGreatAgainTests.swift; sourceTree = "<group>"; };
 		63057A6720C250D30013104E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63057A7120C275B40013104E /* AssistantV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssistantV1.framework; path = Carthage/Build/iOS/AssistantV1.framework; sourceTree = "<group>"; };
+		63057A7220C275B40013104E /* SpeechToTextV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpeechToTextV1.framework; path = Carthage/Build/iOS/SpeechToTextV1.framework; sourceTree = "<group>"; };
+		63057A7320C275B40013104E /* ToneAnalyzerV3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ToneAnalyzerV3.framework; path = Carthage/Build/iOS/ToneAnalyzerV3.framework; sourceTree = "<group>"; };
+		63057A7420C275B40013104E /* ConversationV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ConversationV1.framework; path = Carthage/Build/iOS/ConversationV1.framework; sourceTree = "<group>"; };
+		63057A7A20C2786A0013104E /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Starscream.framework; path = Carthage/Build/iOS/Starscream.framework; sourceTree = "<group>"; };
+		844A13AF06CB8013B5E2C97B /* Pods-MakeChatbotGreatAgain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MakeChatbotGreatAgain.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MakeChatbotGreatAgain/Pods-MakeChatbotGreatAgain.debug.xcconfig"; sourceTree = "<group>"; };
+		8C595A9E82304FDC8D5DC962 /* Pods_MakeChatbotGreatAgain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MakeChatbotGreatAgain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8A196629D3CD56D09CD8BD6 /* Pods-MakeChatbotGreatAgain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MakeChatbotGreatAgain.release.xcconfig"; path = "Pods/Target Support Files/Pods-MakeChatbotGreatAgain/Pods-MakeChatbotGreatAgain.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +57,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63057A7B20C2786A0013104E /* Starscream.framework in Frameworks */,
+				63057A7520C275B40013104E /* AssistantV1.framework in Frameworks */,
+				63057A7620C275B40013104E /* SpeechToTextV1.framework in Frameworks */,
+				63057A7720C275B40013104E /* ToneAnalyzerV3.framework in Frameworks */,
+				63057A7820C275B40013104E /* ConversationV1.framework in Frameworks */,
+				D98FE470C047AFC5886ECCE2 /* Pods_MakeChatbotGreatAgain.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +82,8 @@
 				63057A4F20C250D10013104E /* MakeChatbotGreatAgain */,
 				63057A6420C250D30013104E /* MakeChatbotGreatAgainTests */,
 				63057A4E20C250D10013104E /* Products */,
+				63057A7020C275B40013104E /* Frameworks */,
+				F424F1BB5231F3A299D8803B /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +118,28 @@
 			path = MakeChatbotGreatAgainTests;
 			sourceTree = "<group>";
 		};
+		63057A7020C275B40013104E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63057A7A20C2786A0013104E /* Starscream.framework */,
+				63057A7120C275B40013104E /* AssistantV1.framework */,
+				63057A7420C275B40013104E /* ConversationV1.framework */,
+				63057A7220C275B40013104E /* SpeechToTextV1.framework */,
+				63057A7320C275B40013104E /* ToneAnalyzerV3.framework */,
+				8C595A9E82304FDC8D5DC962 /* Pods_MakeChatbotGreatAgain.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F424F1BB5231F3A299D8803B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				844A13AF06CB8013B5E2C97B /* Pods-MakeChatbotGreatAgain.debug.xcconfig */,
+				E8A196629D3CD56D09CD8BD6 /* Pods-MakeChatbotGreatAgain.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +147,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 63057A6A20C250D30013104E /* Build configuration list for PBXNativeTarget "MakeChatbotGreatAgain" */;
 			buildPhases = (
+				5FF6AB0409E5C6A5AB3C7FAB /* [CP] Check Pods Manifest.lock */,
 				63057A4920C250D10013104E /* Sources */,
 				63057A4A20C250D10013104E /* Frameworks */,
 				63057A4B20C250D10013104E /* Resources */,
+				63057A7920C276B80013104E /* ShellScript */,
+				64F4165C43ADB73BF0CD7C67 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -191,6 +238,65 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5FF6AB0409E5C6A5AB3C7FAB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MakeChatbotGreatAgain-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63057A7920C276B80013104E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/SpeechToTextV1.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/AssistantV1.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Starscream.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ToneAnalyzerV3.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ConversationV1.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		64F4165C43ADB73BF0CD7C67 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MakeChatbotGreatAgain/Pods-MakeChatbotGreatAgain-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/JSQMessagesViewController/JSQMessagesViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQMessagesViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQSystemSoundPlayer.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MakeChatbotGreatAgain/Pods-MakeChatbotGreatAgain-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		63057A4920C250D10013104E /* Sources */ = {
@@ -356,10 +462,15 @@
 		};
 		63057A6B20C250D30013104E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 844A13AF06CB8013B5E2C97B /* Pods-MakeChatbotGreatAgain.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3CMCS2KX8Z;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = MakeChatbotGreatAgain/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -375,10 +486,15 @@
 		};
 		63057A6C20C250D30013104E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8A196629D3CD56D09CD8BD6 /* Pods-MakeChatbotGreatAgain.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3CMCS2KX8Z;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = MakeChatbotGreatAgain/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = (

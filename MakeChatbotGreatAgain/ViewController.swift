@@ -7,6 +7,9 @@
 //
 
 import UIKit
+import AVFoundation
+import AssistantV1
+import SpeechToTextV1
 
 class ViewController: UIViewController {
 
